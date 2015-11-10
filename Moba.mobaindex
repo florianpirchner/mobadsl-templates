@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index:MobaIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:index="http://www.mobadsl.org/template/repository/Index" name="CommonMobaIndex">
+  <entries relativePath="/common/commonTemplate.moba" name="CommonTemplate" description="The base template for all Moba Models" version="0.8.0"/>
+</index:MobaIndex>

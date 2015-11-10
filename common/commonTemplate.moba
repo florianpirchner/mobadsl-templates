@@ -1,0 +1,20 @@
+application customerTemplate {
+	 
+	/**
+	 * commercial addons
+	 */
+	
+	const STRING = "valueString"
+	const INT = 01
+	const DOUBLE = -17.74
+	
+	const TEST = DOUBLE + "." + STRING + INT
+	
+	datatype String constraints(min=INT, max=+9.8, minLength=INT)
+	 
+	generator Common {
+		mixin Common
+		id = "org.mobadsl.grammar.generator.server.rest"
+	}
+	  
+}
