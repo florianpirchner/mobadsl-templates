@@ -1,4 +1,4 @@
-application CommonTemplate {
+application CommonTemplate version "0.8.1.SNAPSHOT" {
 	 
 	/**
 	 * commercial addons
@@ -16,5 +16,5 @@ application CommonTemplate {
 		mixin Common
 		id = "org.mobadsl.grammar.generator.server.rest"
 	}
-	  
 }
+ 
