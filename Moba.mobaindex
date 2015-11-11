@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<index:MobaIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:index="http://www.mobadsl.org/template/repository/Index" name="CommonMobaIndex">
+<index:MobaIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:index="http://www.mobadsl.org/template/repository/Index" name="CommonMobaIndex" description="Common index for Moba" version="0.8.0">
   <entries relativePath="/common/commonTemplate.moba" name="CommonTemplate" description="The base template for all Moba Models" version="0.8.0"/>
+  <entries relativePath="/common/commonTemplate.moba" name="ExtendedTemplate" description="An extended template for moba" version="0.8.3"/>
 </index:MobaIndex>
