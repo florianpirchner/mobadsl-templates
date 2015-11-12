@@ -1,5 +1,5 @@
-application CommonTemplate version "0.8.1.SNAPSHOT" {
-	 
+application CommonTemplate version = 0.8.1.qualifier {
+	  
 	/**
 	 * commercial addons
 	 */
