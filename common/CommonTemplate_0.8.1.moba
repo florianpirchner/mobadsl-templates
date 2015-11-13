@@ -1,9 +1,8 @@
-application CommonTemplate version = 0.8.1.qualifier {
-	  
+application CommonTemplate version = 0.8.1 {
+	   
 	/**
 	 * commercial addons
-	 */
-	
+	 */ 
 	const STRING = "valueString"
 	const INT = 01
 	const DOUBLE = -17.74
@@ -11,10 +10,9 @@ application CommonTemplate version = 0.8.1.qualifier {
 	const TEST = DOUBLE + "." + STRING + INT
 	
 	datatype String constraints(min=INT, max=+9.8, minLength=INT)
-	 
+
 	generator Common {
-		mixin Common
-		id = "org.mobadsl.grammar.generator.server.rest"
+		extensionPoint org.mobadsl.grammar.generator.server.rest : 0.8.9-SNAPSHOT
 	}
 }
  
