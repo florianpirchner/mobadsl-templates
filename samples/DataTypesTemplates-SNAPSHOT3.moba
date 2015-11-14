@@ -1,0 +1,18 @@
+/**
+ * Contains a set of common datatypes. 
+ */
+application DateFormatTemplates version = 0.9.1-SNAPSHOT {
+
+	use template DateFormatTemplates:0.9.1-SNAPSHOT
+
+	datatype String isString
+	datatype Number isNumeric
+	datatype Decimal isDecimal
+	datatype Date isDate
+	datatype Time isTime
+	datatype TimeStamp isTimestamp
+	datatype Year isDate
+	datatype Month isDate
+	datatype Day isDate 
+	
+}

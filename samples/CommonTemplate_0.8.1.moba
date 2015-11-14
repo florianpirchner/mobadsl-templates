@@ -1,0 +1,23 @@
+application CommonTemplate version = 0.8.1 {
+
+	const STRING = "valueString"
+	const MIMETYPE__XML = "mime/xml"
+	
+	const INT = 01
+	const DOUBLE = -17.74
+	
+	const TEST = DOUBLE + "." + STRING + INT
+	
+	datatype String constraints(min=INT, max=+9.8, minLength=INT) isString
+	datatype Double constraints(min=INT, max=+9.8, minLength=INT) isDecimal
+	datatype Int constraints(min=INT, max=+9.8, minLength=INT) isNumeric
+	
+	
+	authorization O_AUTH2
+	authorization USER_PWD
+	
+	generator Common {
+		extensionPoint org.mobadsl.grammar.generator.server.rest : 0.8.9-SNAPSHOT
+	}
+}
+ 
