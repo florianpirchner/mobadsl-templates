@@ -2,7 +2,17 @@
  * Contains a set of <b>DateFormat-Constants</b>. 
  * All date format constants start with <code>"DF_"</code>.
  */
-application DateFormatTemplates version = 0.9.1-SNAPSHOT {
+application MobaDateFormatTemplates version = 0.9.1-SNAPSHOT {
+	
+	/**
+	 * Time in the form <code>07:23</code> for <code>2015.Oct.10 07:23.11234</code>
+	 */
+	const DF_TIME = "HH:mm:ss"
+	
+		/**
+	 * Time in the form <code>2015.Oct.10 07:23.11234</code> for <code>2015.Oct.10 07:23.11234</code>
+	 */
+	const DF_TIME_STAMP = "yyyy.mm.dd HH:mm:ss"
 	
 	/**
 	 * Year in the form <code>15</code> for <code>2015</code>
