@@ -18,10 +18,11 @@ application MobaAuthorizationTemplate version = 0.9.1-SNAPSHOT {
 	authorization USER_PWD
 	   
 	/**
-	 * A base data transfer object to send user login information to a service.
+	 * A base data transfer object to send userName and password login information to a service.
 	 */
-	dto UserLoginDto {
+	dto UserNameAndPasswordLoginRequestDto {
 		var String userName
 		var ^Password password
 	}
+	
 }

@@ -59,6 +59,11 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	//
 	// ---------------- Numeric Datatypes ----------------
 	//
+
+	/**
+	 * Represents a ByteArray
+	 */
+	datatype ByteArray isNumeric isArray
 	
 	/**
 	 * Represents a number value <b>without fraction digits</b>

@@ -3,7 +3,7 @@
  * All date format constants start with <code>"DF_"</code>.
  */
 application MobaDateFormatTemplates version = 0.9.1-SNAPSHOT {
-	
+
 	/**
 	 * Time in the form <code>07:23</code> for <code>2015.Oct.10 07:23.11234</code>
 	 */

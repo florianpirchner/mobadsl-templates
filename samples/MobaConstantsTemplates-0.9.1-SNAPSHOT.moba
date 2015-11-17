@@ -1,0 +1,28 @@
+/**
+ * Contains a set of <b>Number- and Decimal-Constants</b>. 
+ * All mime type constants start with <code>"NUMBER_"</code> or <code>"DECIMAL_"</code>.
+ */
+application MobaConstantsTemplates version = 0.9.1-SNAPSHOT {
+
+	/**
+	 * A constant to mark data as undefined.
+	 */
+	const UNDEFINED = "undefined"
+	
+	/**
+	 * A constant to mark a variable, that data needs to become defined by a subtype. <br>
+	 * This subtype needs to use the <code>extends {XYZ}</code> to override this setting.<p>
+	 * For instance:<br>
+	 * <code>server Foo url=TO_BE_DEFINED_BY_SUBTYPE {<br>
+	 * ...<br>
+	 * }</code><br>
+	 * <br>
+	 * This URL is not a valid URL. But instead the subtype needs to redefine the URL:<br><br>
+	 * <code>server Baa url="http://www.example.com/baa" extends Foo {<br>
+	 * ...<br>
+	 * }</code><br>
+	 * <br>
+	 */
+	const TO_BE_DEFINED_BY_SUBTYPE = "toBeDefinedBySubclass"
+	
+}

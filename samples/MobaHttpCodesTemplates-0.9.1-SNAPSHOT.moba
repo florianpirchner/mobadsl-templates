@@ -1,0 +1,45 @@
+/**
+ * Contains a set of common HTTP status code constants.<br>
+ * Constants start with <code>"HTTP_CODE_"</code> 
+ */
+application MobaHttpCodesTemplates version = 0.9.1-SNAPSHOT {
+	
+	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
+
+	/** 
+	 * OK
+	 **/
+	const HTTP_CODE_200 = 200
+	
+	/** 
+	 * No Content
+	 **/
+	const HTTP_CODE_204 = 204
+	
+	/** 
+	 * Bad request
+	 **/
+	const HTTP_CODE_400 = 400
+	
+		
+	/** 
+	 * Internal Server Error
+	 **/
+	const HTTP_CODE_500 = 500
+
+	/**
+	 * A default http response data transfer object 
+	 */	
+	dto DefaultHttpResponseDto {
+		/**
+		 * The http status code
+		 */
+		var Number httpStatusCode
+		
+		/**
+		 * The response payload as a byte array
+		 */
+		var ByteArray payload
+	}
+	
+}

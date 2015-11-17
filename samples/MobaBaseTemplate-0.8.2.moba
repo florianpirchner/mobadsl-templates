@@ -11,8 +11,9 @@ application MobaBaseTemplate version = 0.8.2 {
 	use template MobaMimeTypesTemplate:0.9.1-SNAPSHOT
 	use template MobaNumberTemplates:0.9.1-SNAPSHOT
 	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
-	use template HttpCodesTemplates:0.9.1-SNAPSHOT
-	 
+	use template MobaHttpCodesTemplates:0.9.1-SNAPSHOT
+	use template MobaAuthorizationTemplate:0.9.1-SNAPSHOT
+
 	/**
 	 * The <i><b>Open Source Moba Generator</b></i>.<br>
 	 * It supports all used templates.
@@ -21,5 +22,10 @@ application MobaBaseTemplate version = 0.8.2 {
 		extensionPoint org.mobadsl.grammar.generator.common : 0.3.1-SNAPSHOT
 	}
 	
+	
+	
+	rest UserLogin {
+		
+	}
+	
 }
-   
