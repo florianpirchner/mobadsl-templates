@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index:MobaIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:index="http://www.mobadsl.org/template/repository/Index" id="org.moba.index.common" name="CommonMobaIndex" description="Common index for Moba" version="0.8.0">
-  <entries relativePath="/common/" filename="CommonTemplate_0.8.1.moba" templateName="CommonTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.8.1"/>
+  <entries relativePath="/common/" filename="MobaAuthorizationTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaAuthorizationTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaBaseTemplate-0.8.2.moba" templateName="MobaBaseTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.8.2"/>
+  <entries relativePath="/common/" filename="MobaConstantsTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaConstantsTemplates" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaDataTypeTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaDataTypeTemplates" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaDateFormatTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaDateFormatTemplates" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaExternalModulesTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaExternalModulesTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaHttpCodesTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaHttpCodesTemplates" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaMimeTypesTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaMimeTypesTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaNumberTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaNumberTemplates" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaTriggersTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaTriggersTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.9.1-SNAPSHOT"/>
 </index:MobaIndex>
