@@ -15,4 +15,3 @@ application MobaNumberTemplates version = 0.9.1-SNAPSHOT {
 	const DECIMAL_1000 = 1000.0
 	
 }
-  
