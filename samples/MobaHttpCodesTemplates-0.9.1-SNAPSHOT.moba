@@ -28,7 +28,7 @@ application MobaHttpCodesTemplates version = 0.9.1-SNAPSHOT {
 	const HTTP_CODE_500 = 500
 
 	/**
-	 * A default http response data transfer object 
+	 * A default http response data transfer object. May become extended by clients.
 	 */	
 	dto DefaultHttpResponseDto {
 		/**
@@ -39,7 +39,7 @@ application MobaHttpCodesTemplates version = 0.9.1-SNAPSHOT {
 		/**
 		 * The response payload as a byte array
 		 */
-		var ByteArray payload
+		var ByteArray payload 
 	}
 	
 }

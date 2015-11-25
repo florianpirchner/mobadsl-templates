@@ -32,7 +32,4 @@ application MobaDateFormatTemplates version = 0.9.1-SNAPSHOT {
 	/**
 	 * Day in the form <code>10</code>.
 	 */
-	const DF_DAY = "dd"
-	
-	
-}
+	const DF_DAY = "dd" }

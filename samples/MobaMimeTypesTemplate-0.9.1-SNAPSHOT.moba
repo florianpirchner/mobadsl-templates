@@ -47,7 +47,4 @@ application MobaMimeTypesTemplate version = 0.9.1-SNAPSHOT {
 	/**
 	 * "video/mov" -> *.qt *.mov
 	 */
-	const MIMETYPE__VIDEO_MOV = "video/quicktime"
-	
-}
- 
+	const MIMETYPE__VIDEO_MOV = "video/quicktime" }

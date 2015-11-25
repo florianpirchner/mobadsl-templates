@@ -1,6 +1,5 @@
 /**
- * Contains a set of <b>Authorization</b> constants and a UserLoginDto. 
- * All date format constants start with <code>"AUTH_"</code>.
+ * Contains a set of <b>External Modules</b>. 
  */
 application MobaExternalModulesTemplate version = 0.9.1-SNAPSHOT {
 	

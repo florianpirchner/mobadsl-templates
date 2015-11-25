@@ -5,7 +5,7 @@
 application MobaConstantsTemplates version = 0.9.1-SNAPSHOT {
 
 	/**
-	 * A constant to mark data as undefined.
+	 * A constant to mark data as undefined
 	 */
 	const UNDEFINED = "undefined"
 	
@@ -24,5 +24,96 @@ application MobaConstantsTemplates version = 0.9.1-SNAPSHOT {
 	 * <br>
 	 */
 	const TO_BE_DEFINED_BY_SUBTYPE = "toBeDefinedBySubclass"
+
+	/**
+	 * A constant for <b>ok</b> in lower case.
+	 */ 
+	const OK = "ok"
 	
+	/**
+	 * A constant for <b>not ok</b> in lower case.
+	 */
+	const NOK = "not ok"
+	
+	/**
+	 * A constant for <b>null</b> in lower case.
+	 */
+	const NULL = "null"
+
+	/**
+	 * A constant for <b>name</b> in lower case
+	 */
+	const NAME_LC = "name"
+	
+	/**
+	 * A constant for <b>NAME</b> in lower case
+	 */
+	const NAME_UC = NAME_LC -> toUpperCase
+
+	/**
+	 * A constant for <b>Name</b> in upper case
+	 */
+	const NAME_FIRST_UC = NAME_LC -> toFirstUpper
+	
+	/**
+	 * A constant for <b>description</b> in lower case
+	 */
+	const DESCRIPTION_LC = "description"
+	
+	/**
+	 * A constant for <b>DESCRIPTION</b> in upper case
+	 */
+	const DESCRIPTION_UC = DESCRIPTION_LC -> toUpperCase
+	
+	/**
+	 * A constant for <b>Description</b> in upper case
+	 */
+	const DESCRIPTION_FIRST_UC = DESCRIPTION_LC -> toFirstUpper
+	
+	/**
+	 * A constant for <b>address</b> in lower case
+	 */
+	const ADDRESS_LC = "address"
+	
+	/**
+	 * A constant for <b>ADDRESS</b> in upper case
+	 */
+	const ADDRESS_UC = ADDRESS_LC -> toUpperCase
+	
+	/**
+	 * A constant for <b>Description</b> in upper case
+	 */
+	const ADDRESS_FIRST_UC = ADDRESS_LC -> toFirstUpper
+	
+	/**
+	 * A constant for <b>id</b> in lower case
+	 */
+	const ID_LC = "id"
+	
+	/**
+	 * A constant for <b>ID</b> in upper case
+	 */
+	const ID_UC = ID_LC -> toUpperCase
+
+	/**
+	 * A constant for <b>Id</b> in first upper case
+	 */
+	const ID_FIRST_UC = ID_LC -> toFirstUpper
+	
+	/**
+	 * A constant for <b>uuid</b> in lower case
+	 */
+	const UUID_LC = "uuid"
+	
+	/**
+	 * A constant for <b>UUID</b> in lower case
+	 */
+	const UUID_UC = UUID_LC -> toUpperCase
+	
+	/**
+	 * A constant for <b>Uuid</b> in first upper case
+	 */
+	const UUID_FIRST_UC = UUID_LC -> toFirstUpper
 }
+	
+	

@@ -120,7 +120,6 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	 * Represents a day following the pattern <code>2015.Oct.24=24</code>
 	 */
 	datatype Day isDate (DF_DAY)
-
 	
 	//
 	// ---------------- Enum Datatypes ----------------
@@ -148,6 +147,5 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	datatype AcceptanceEnum enum {
 		lit ACCEPT = ("accept", 00)
 		lit DECLINE = ("decline", 01)
-	}
-	
+	} 
 }
