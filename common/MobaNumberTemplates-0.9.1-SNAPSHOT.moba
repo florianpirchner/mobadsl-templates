@@ -1,0 +1,15 @@
+/**
+ * Contains a set of <b>Number- and Decimal-Constants</b>. 
+ * All mime type constants start with <code>"NUMBER_"</code> or <code>"DECIMAL_"</code>.
+ */
+application MobaNumberTemplates version = 0.9.1-SNAPSHOT {
+
+	const NUMBER_0 = 00
+	const NUMBER_10 = 10
+	const NUMBER_100 = 100
+	const NUMBER_1000 = 1000
+	
+	const DECIMAL_0 = 00.0
+	const DECIMAL_10 = 10.0
+	const DECIMAL_100 = 100.0
+	const DECIMAL_1000 = 1000.0 }

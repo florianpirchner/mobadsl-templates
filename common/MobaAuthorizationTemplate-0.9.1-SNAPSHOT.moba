@@ -1,0 +1,28 @@
+/**
+ * Contains a set of <b>Authorization</b> constants and a UserLoginDto. 
+ * All date format constants start with <code>"AUTH_"</code>.
+ */
+application MobaAuthorizationTemplate version = 0.9.1-SNAPSHOT {
+
+	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
+	
+	/**
+	 * Authorization based on O_AUTH2.<br>
+	 * See <a href="https://de.wikipedia.org/wiki/OAuth">Wikipedia O-Auth</a>
+	 */
+	authorization O_AUTH2
+	
+	/**
+	 * Authorization based on User and Password.
+	 */
+	authorization USER_PWD
+
+	/**
+	 * A base data transfer object to send userName and password login information to a service.<br>
+	 * May be extended by clients.
+	 */
+	dto UserNameAndPasswordLoginRequestDto {
+		var String userName
+		var ^Password password 
+	}
+}
