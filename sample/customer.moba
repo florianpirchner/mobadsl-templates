@@ -4,7 +4,7 @@ project Wup version = 0.7.3-SNAPSHOT {
 }
 
 application CustomerUiApp version = 1.0.1 { 
- 
+
 	use template MobaBaseTemplate:0.8.2
 
  	/**
