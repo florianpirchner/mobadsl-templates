@@ -19,7 +19,6 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	 */
 	const DESCRIPTION_MAX_LENGTH = 125
 
-
 	//
 	// ---------------- String Datatypes ----------------
 	//
