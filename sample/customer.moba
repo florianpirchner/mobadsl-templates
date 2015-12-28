@@ -5,20 +5,17 @@ project Wup version = 0.7.3-SNAPSHOT {
 
 application CustomerUiApp version = 1.0.1 { 
  
-	use template MimeTypesTemplate:0.9.1-SNAPSHOT
-	use template DateFormatTemplates:0.9.1-SNAPSHOT
-	use template CommonTemplate:0.8.1
+	use template MobaBaseTemplate:0.8.2
 
  	/**
  	 * Generator for My-Customer
  	 */
 	generator My {
-		mixin Common:0.8.1
+		mixin CommonMobaGenerator:0.8.2
 		extensionPoint org.mobadsl.grammar.generator.server.rest : 0.8.9-SNAPSHOT
-		mixin My:1.0.1
 	}
 
-	server My url = "http://www.test.org" extends CommonUserServer {
+	server My url = "http://www.test.org" {
 		services = (Test)
 		autorizations = (O_AUTH2)
 	}
@@ -48,11 +45,11 @@ application CustomerUiApp version = 1.0.1 {
 
 	rest Test extends TestBase {
 		parameters {
-			param Double param1 = DOUBLE
+			param Decimal param1 = DOUBLE
 		}
 		
 		headers {
-			param String xxxmx = MIMETYPE__XML			
+			param String xxxmx = MIMETYPE__TEXT_XML
 		}
 		
 		requestDto = Test isArray as XML

@@ -1,7 +1,7 @@
 /**
  * Contains a set of common datatypes. 
  */
-application MobaOverrideSampleExtendedDataTypeTemplates version = 0.9.1-SNAPSHOT {
+application MobaOverrideSample version = 0.9.1-SNAPSHOT {
 
 	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
 	use template MobaHttpCodesTemplates:0.9.1-SNAPSHOT
