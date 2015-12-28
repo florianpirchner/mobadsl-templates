@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <index:MobaIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:index="http://www.mobadsl.org/template/repository/Index" id="org.moba.index.common" name="CommonMobaIndex" description="Common index for Moba" version="0.8.0">
-  <entries relativePath="/common/" filename="CommonTemplate_0.8.1.moba" templateName="CommonTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.8.1"/>
+  <entries relativePath="/common/" filename="MobaAuthorizationTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaAuthorizationTemplate" templateDescription="Common authorization definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaBaseTemplate-0.8.2.moba" templateName="MobaBaseTemplate" templateDescription="The base template for all Moba Models" templateVersion="0.8.2"/>
+  <entries relativePath="/common/" filename="MobaConstantsTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaConstantsTemplates" templateDescription="Common constants definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaDataTypeTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaDataTypeTemplates" templateDescription="Common datatype definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaDateFormatTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaDateFormatTemplates" templateDescription="Common dateformat definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaExternalModulesTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaExternalModulesTemplate" templateDescription="Common &quot;external modules&quot; definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaHttpCodesTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaHttpCodesTemplates" templateDescription="Common &quot;http codes&quot; definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaMimeTypesTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaMimeTypesTemplate" templateDescription="Common &quot;mime type&quot; definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaNumberTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaNumberTemplates" templateDescription="Common &quot;number and decimal&quot; definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaTriggersTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaTriggersTemplate" templateDescription="Common trigger definitions" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaOverrideSampleExtendedDataTypeTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaOverrideSampleExtendedDataTypeTemplates" templateDescription="A sample showing the override capabilities" templateVersion="0.9.1-SNAPSHOT"/>
 </index:MobaIndex>

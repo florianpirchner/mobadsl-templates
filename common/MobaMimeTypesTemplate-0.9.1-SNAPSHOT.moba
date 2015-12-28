@@ -2,8 +2,8 @@
  * Contains a set of <b>MIME-Type-Constants</b>. 
  * All mime type constants start with <code>"MIMETYPE_"</code>.
  */
-application MimeTypesTemplate version = 0.9.1-SNAPSHOT {
-	
+application MobaMimeTypesTemplate version = 0.9.1-SNAPSHOT {
+
 	/**
 	 * "text/css" -> .css
 	 */
@@ -47,7 +47,4 @@ application MimeTypesTemplate version = 0.9.1-SNAPSHOT {
 	/**
 	 * "video/mov" -> *.qt *.mov
 	 */
-	const MIMETYPE__VIDEO_MOV = "video/quicktime"
-	
-}
- 
+	const MIMETYPE__VIDEO_MOV = "video/quicktime" }

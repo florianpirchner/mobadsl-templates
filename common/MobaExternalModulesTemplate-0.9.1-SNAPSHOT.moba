@@ -1,0 +1,41 @@
+/**
+ * Contains a set of <b>External Modules</b>. 
+ */
+application MobaExternalModulesTemplate version = 0.9.1-SNAPSHOT {
+	
+	/**
+	 * An external module for <b>bluetooth low energy</b> communication
+	 */
+	module bluetooth Bluetooth_LowEngergyModule type = low energy
+	
+	/**
+	 * An external module for <b>bluetooth SPP</b> communication
+	 */
+	module bluetooth Bluetooth_SPPModule type = spp
+	
+	/**
+	 * An external module for <b>bluetooth beacon</b> communication
+	 */
+	module bluetooth Bluetooth_BeaconModule type = beacon
+
+	/**
+	 * An external module for NFC communication by <b>ID</b>
+	 */
+	module NFC NFC_IdModule type = id
+	
+	/**
+	 * An external module for NFC communication by <b>text</b>
+	 */
+	module NFC NFC_TextModule type = text
+	
+	/**
+	 * An external module for NFC communication by <b>custom payload</b>
+	 */
+	module NFC NFC_CustomModule type = custom
+	
+	/**
+	 * An external module for push communication
+	 */
+	module push ^PushModule
+		
+}
