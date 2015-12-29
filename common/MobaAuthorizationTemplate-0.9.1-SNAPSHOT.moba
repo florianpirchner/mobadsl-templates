@@ -5,7 +5,7 @@
 application MobaAuthorizationTemplate version = 0.9.1-SNAPSHOT {
 
 	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
-
+  
 	/**
 	 * Authorization based on O_AUTH2.<br>
 	 * See <a href="https://de.wikipedia.org/wiki/OAuth">Wikipedia O-Auth</a>

@@ -1,6 +1,5 @@
 /**
- * Contains a set of <b>Number- and Decimal-Constants</b>. 
- * All mime type constants start with <code>"NUMBER_"</code> or <code>"DECIMAL_"</code>.
+ * Contains a set of <b>Constants</b>. 
  */
 application MobaConstantsTemplates version = 0.9.1-SNAPSHOT {
 

@@ -29,6 +29,12 @@ application CustomerUiApp version = 1.0.1 {
 	const STRING_10_12 = "10.12"
 	const STRING_A = "A"
 	
+	/*
+	 * Constants concated
+	 */
+	const BAA = ADDRESS_UC + " _ foo _ " + STRING_10 + DECIMAL_0
+	
+	
 	dto Test {
 		var String string
 	}

@@ -13,5 +13,6 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
+		<nature>org.mobadsl.ide.eclipse.ui.MobaNature</nature>
 	</natures>
 </projectDescription>
