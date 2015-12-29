@@ -32,4 +32,12 @@ application MobaDateFormatTemplates version = 0.9.1-SNAPSHOT {
 	/**
 	 * Day in the form <code>10</code>.
 	 */
-	const DF_DAY = "dd" }
+	const DF_DAY = "dd"
+	
+	/**
+	 * Date in the form <code>2015-12-24</code> for <code>2015.Dec.24 07:23.11234</code>
+	 */
+	 const DF_YEAR_MONTH_DAY = "yyyy-MM-dd"
+	 
+
+	 }

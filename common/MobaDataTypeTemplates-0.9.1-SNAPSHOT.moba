@@ -53,6 +53,13 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	 */
 	datatype ^Password isString
 	
+	//
+	// ---------------- PRIMITIVES -----------------------
+	//
+	datatype int isNumeric isPrimitive
+	datatype long isNumeric isPrimitive
+	datatype double isDecimal isPrimitive
+	datatype bool isBool isPrimitive
 	
 	//
 	// ---------------- Numeric Datatypes ----------------
