@@ -67,6 +67,6 @@ application MobaAuthorizationTemplate version = 0.9.1-SNAPSHOT {
 	 */
 	dto UserNameAndPasswordLoginRequestDto {
 		var String userName
-		var ^Password password 
+		var Password password 
 	}
 }
