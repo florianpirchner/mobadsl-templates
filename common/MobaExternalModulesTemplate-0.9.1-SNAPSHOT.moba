@@ -6,7 +6,7 @@ application MobaExternalModulesTemplate version = 0.9.1-SNAPSHOT {
 	/**
 	 * An external module for <b>bluetooth low energy</b> communication
 	 */
-	module bluetooth Bluetooth_LowEngergyModule type = low energy
+	module bluetooth Bluetooth_LowEngergyModule type = lowEnergy
 	
 	/**
 	 * An external module for <b>bluetooth SPP</b> communication
@@ -36,6 +36,6 @@ application MobaExternalModulesTemplate version = 0.9.1-SNAPSHOT {
 	/**
 	 * An external module for push communication
 	 */
-	module push ^PushModule
+	module push PushModule
 		
 }
