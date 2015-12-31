@@ -1,0 +1,43 @@
+/**
+ * Contains a set of <b>Authorization</b> constants and a UserLoginDto. 
+ * All date format constants start with <code>"AUTH_"</code>.
+ */
+application MobaCachingTemplate version = 0.9.1-SNAPSHOT {
+
+	
+	/**
+	 * caching type CACHE_NO
+	 * the Entity will not be cached automatically
+	 */
+	const CACHE_TYPE_NO = "CACHE_NO"
+	
+	/**
+	 * caching type CACHE_RO
+	 * the Entity will not be read from cache at start, but not cached automatically
+	 */
+	const CACHE_TYPE_READ_ONLY = "CACHE_RO"
+	
+	/**
+	 * caching type CACHE_RW
+	 * the Entity will not be read from cache at start, and cached automatically
+	 */
+	const CACHE_TYPE_READ_WRITE = "CACHE_RW"
+	
+	/**
+	 * caching strategy CACHE_AT_EXIT
+	 * Cache will be written to disc at exit of app
+	 */
+	const CACHE_STRATEGY_AT_EXIT = "CACHE_AT_EXIT"
+	
+	/**
+	 * caching strategy CACHE_IMMEDIATELY
+	 * Cache will be written to disc at every modification
+	 */
+	const CACHE_STRATEGY_IMMEDIATELY = "CACHE_IMMEDIATELY"
+	
+	/**
+	 * caching strategy CACHE_TIMER
+	 * Cache will be written at the end of the app and also every x seconds
+	 */
+	const CACHE_STRATEGY_TIMER = "CACHE_TIMER"
+}
