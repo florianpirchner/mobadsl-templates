@@ -1,17 +1,17 @@
-project Wup version = 0.7.3-SNAPSHOT {
-	uiApp = CustomerUiApp:1.0.1
-	backgroundApp = CustomerBackgroundApp:1.0.1
+project FooCustomer version = 0.7.3-SNAPSHOT {
+	uiApp = CustomerUiApp
+	backgroundApp = CustomerBackgroundApp
 }
 
 application CustomerUiApp version = 1.0.1 { 
 
-	use template MobaBaseTemplate:0.8.2
-
+	use template MobaBaseTemplate
+ 
  	/**
  	 * Generator for My-Customer
  	 */
 	generator My {
-		mixin CommonMobaGenerator:0.8.2
+		mixin CommonMobaGenerator
 		extensionPoint org.mobadsl.grammar.generator.server.rest : 0.8.9-SNAPSHOT
 	}
 
@@ -62,7 +62,7 @@ application CustomerUiApp version = 1.0.1 {
 		errorDto = Test as JSON
 	}
 }
-
+ 
 application CustomerBackgroundApp version = 1.0.1 { 
 	
 }

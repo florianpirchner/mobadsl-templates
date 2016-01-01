@@ -3,7 +3,7 @@
  */
 application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 
-	use template MobaDateFormatTemplates:0.9.1-SNAPSHOT
+	use template MobaDateFormatTemplates
 
 	//
 	// ---------------- Constants ----------------

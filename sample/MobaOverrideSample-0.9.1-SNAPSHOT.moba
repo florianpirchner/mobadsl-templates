@@ -3,8 +3,8 @@
  */
 application MobaOverrideSample version = 0.9.1-SNAPSHOT {
 
-	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
-	use template MobaHttpCodesTemplates:0.9.1-SNAPSHOT
+	use template MobaDataTypeTemplates
+	use template MobaHttpCodesTemplates
 
 	/**
 	 * This enum extends the GenderEnum with a <b>no sex</b> literal.

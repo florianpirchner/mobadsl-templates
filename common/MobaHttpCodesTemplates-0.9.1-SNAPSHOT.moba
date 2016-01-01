@@ -4,7 +4,7 @@
  */
 application MobaHttpCodesTemplates version = 0.9.1-SNAPSHOT {
 	
-	use template MobaDataTypeTemplates:0.9.1-SNAPSHOT
+	use template MobaDataTypeTemplates
 
 	/** 
 	 * OK
