@@ -40,4 +40,18 @@ application MobaCachingTemplate version = 0.9.1-SNAPSHOT {
 	 * Cache will be written at the end of the app and also every x seconds
 	 */
 	const CACHE_STRATEGY_TIMER = "CACHE_TIMER"
-}
+	
+	/**
+	 * Cache interval of 10
+	 */
+	const CACHE_INTERVAL_10 = 10
+	
+	/**
+	 * Cache interval of 100
+	 */
+	const CACHE_INTERVAL_100 = 100
+	
+	/**
+	 * Cache interval of 1000
+	 */
+	const CACHE_INTERVAL_1000 = 1000 }

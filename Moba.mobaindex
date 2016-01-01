@@ -11,4 +11,5 @@
   <entries relativePath="/common/" filename="MobaNumberTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaNumberTemplates" templateDescription="Common &quot;number and decimal&quot; definitions" templateVersion="0.9.1-SNAPSHOT"/>
   <entries relativePath="/common/" filename="MobaTriggersTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaTriggersTemplate" templateDescription="Common trigger definitions" templateVersion="0.9.1-SNAPSHOT"/>
   <entries relativePath="/common/" filename="MobaOverrideSampleExtendedDataTypeTemplates-0.9.1-SNAPSHOT.moba" templateName="MobaOverrideSampleExtendedDataTypeTemplates" templateDescription="A sample showing the override capabilities" templateVersion="0.9.1-SNAPSHOT"/>
+  <entries relativePath="/common/" filename="MobaCachingTemplate-0.9.1-SNAPSHOT.moba" templateName="MobaCachingTemplate" templateDescription="Common caching definitions" templateVersion="0.9.1-SNAPSHOT"/>
 </index:MobaIndex>

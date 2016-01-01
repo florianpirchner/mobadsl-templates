@@ -3,14 +3,14 @@ project FooCustomer version = 0.7.3-SNAPSHOT {
 	backgroundApp = CustomerBackgroundApp
 }
 
-application CustomerUiApp version = 1.0.1 { 
+application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval=NUMBER_1000) { 
 
 	use template MobaBaseTemplate
  
  	/**
- 	 * Generator for My-Customer
+ 	 * Generator for My-Customer 
  	 */
-	generator My {
+	generator My { 
 		mixin CommonMobaGenerator
 		extensionPoint org.mobadsl.grammar.generator.server.rest : 0.8.9-SNAPSHOT
 	}

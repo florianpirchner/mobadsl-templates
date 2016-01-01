@@ -6,7 +6,7 @@ application MobaHttpCodesTemplates version = 0.9.1-SNAPSHOT {
 	
 	use template MobaDataTypeTemplates
 
-	/** 
+	/**
 	 * OK
 	 **/
 	const HTTP_CODE_200 = 200
