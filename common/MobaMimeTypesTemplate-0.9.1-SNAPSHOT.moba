@@ -47,4 +47,79 @@ application MobaMimeTypesTemplate version = 0.9.1-SNAPSHOT {
 	/**
 	 * "video/mov" -> *.qt *.mov
 	 */
-	const MIMETYPE__VIDEO_MOV = "video/quicktime" }
+	const MIMETYPE__VIDEO_MOV = "video/quicktime" 
+	
+	//   C O N T E N T
+	
+	/**
+	 * POST with Parameters
+	 */
+	 const CONTENTTYPE_URL_ENCODED = "application/x-www-form-urlencoded"
+	 
+	 /**
+	  * Multipart with Form Data
+	  * Uplaoding Images and other stuff to Server
+	  */
+	 const CONTENTTYPE_MULTIPART_FORM = "multipart/form-data"
+	 
+	/**
+	 * POST with plain text as payload
+	 */
+	const CONTENTTYPE_TEXT_PLAIN = MIMETYPE__TEXT_PLAIN
+	
+	/**
+	 * Content is a JPEG Image
+	 */
+	 const CONTENTTYPE_IMG_JPG = "image/jpeg"
+	
+	/**
+	 * POST with JSON as payload
+	 */
+	const CONTENTTYPE_APP_JSON = "application/json"
+	
+	/**
+	 * POST with XML as payload
+	 */
+	const CONTENTTYPE_APP_XML = "application/xml"
+	 
+	/**
+	 * POST with JSON as payload
+	 */
+	const CONTENTTYPE_APP_JSON_UTF8 = "application/json; charset=utf-8"
+	
+	/**
+	 * POST with XML as payload
+	 */
+	const CONTENTTYPE_APP_XML_UTF8 = "application/xml; charset=utf-8"
+	
+	/**
+	 * POST as app-specific stream
+	 * used from Multipart Uploads
+	 */
+	 const CONTENTTYPE_OCTET_STREAM = "application/octet-stream"
+
+	/**
+	 * Some REST API requires this special parameter
+	 */	
+	const PARAMETER_FORMAT = "$format"
+	const PARAMETER_FORMAT_JSON = "JSON"
+	 
+	 // H E A D E R
+	 
+	const LANGUAGE_EN = "en-US,en;q=0.8"
+	const LANGUAGE_DE = "de-DE,en,*"
+	 
+	const RAWHEADER_ACCEPT = "Accept"
+	
+	const RAWHEADER_ACCEPT_LANGUAGE = "Accept-Language"
+	 
+	const RAWHEADER_AUTHENTICATION = "Authorization"
+
+	const RAWHEADER_SAP_APPCID = "X-SMP-APPCID"	  
+
+	const RAWHEADER_SAP_WRITE_TOKEN = "X-CSRF-TOKEN"	  	  
+	  
+	const RAWHEADER_SAP_SESSION_ID = "X-SMP-SESSID"	  	  
+	  
+
+	  }
