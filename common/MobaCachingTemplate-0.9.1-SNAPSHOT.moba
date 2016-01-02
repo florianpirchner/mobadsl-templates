@@ -3,7 +3,6 @@
  * All date format constants start with <code>"AUTH_"</code>.
  */
 application MobaCachingTemplate version = 0.9.1-SNAPSHOT {
-
 	
 	/**
 	 * caching type CACHE_NO
@@ -54,4 +53,16 @@ application MobaCachingTemplate version = 0.9.1-SNAPSHOT {
 	/**
 	 * Cache interval of 1000
 	 */
-	const CACHE_INTERVAL_1000 = 1000 }
+	const CACHE_INTERVAL_1000 = 1000 
+	
+	/**
+	 * Cache persists with JSON
+	 */
+	persistence JSON
+	
+	/**
+	 * Cache persists with SQLite
+	 */
+	persistence SQ_LITE
+	
+}

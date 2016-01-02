@@ -18,6 +18,7 @@ application MobaBaseTemplate version = 0.8.2 {
 	use template MobaMimeTypesTemplate
 	use template MobaNumberTemplates
 	use template MobaTriggersTemplate
+	use template MobaCachingTemplate
 
 	/**
 	 * The <i><b>Open Source Moba Generator</b></i>.<br>

@@ -3,7 +3,7 @@ project FooCustomer version = 0.7.3-SNAPSHOT {
 	backgroundApp = CustomerBackgroundApp
 }
 
-application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval=NUMBER_1000) { 
+application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval=NUMBER_1000 using SQ_LITE) { 
 
 	use template MobaBaseTemplate
  
