@@ -126,6 +126,16 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	 */
 	datatype Day isDate (DF_DAY)
 	
+	/**
+	 * encapsulates a Coordinate and location-specific logic
+	 */
+	datatype GeoCoordinate isNumeric // TODO is an Object
+	
+	/**
+	 * encapsulates a GEO Address and location-specific logic
+	 */
+	datatype GeoAddress isNumeric // TODO is an Object
+	
 	//
 	// ---------------- Enum Datatypes ----------------
 	//
