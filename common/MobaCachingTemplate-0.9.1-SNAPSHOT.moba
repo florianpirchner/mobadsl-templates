@@ -65,4 +65,6 @@ application MobaCachingTemplate version = 0.9.1-SNAPSHOT {
 	 */
 	persistence SQ_LITE
 	
+	
+	cache SqLiteCache (type=CACHE_TYPE_NO strategy=CACHE_STRATEGY_AT_EXIT interval=CACHE_INTERVAL_10 using SQ_LITE)
 }

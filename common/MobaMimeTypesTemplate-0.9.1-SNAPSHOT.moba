@@ -121,5 +121,4 @@ application MobaMimeTypesTemplate version = 0.9.1-SNAPSHOT {
 	  
 	const RAWHEADER_SAP_SESSION_ID = "X-SMP-SESSID"	  	  
 	  
-
-	  }
+}

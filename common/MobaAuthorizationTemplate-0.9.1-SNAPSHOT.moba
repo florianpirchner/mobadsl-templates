@@ -5,7 +5,7 @@
 application MobaAuthorizationTemplate version = 0.9.1-SNAPSHOT {
 
 	use template MobaDataTypeTemplates
-	
+
 	/**
 	 * No authorization needed
 	 * For public services

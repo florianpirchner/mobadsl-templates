@@ -3,7 +3,7 @@ project FooCustomer version = 0.7.3-SNAPSHOT {
 	backgroundApp = CustomerBackgroundApp
 }
 
-application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval=NUMBER_1000 using SQ_LITE) { 
+application CustomerUiApp version = 1.0.1 cache = SqLiteCache { 
 
 	use template MobaBaseTemplate
  
@@ -17,7 +17,7 @@ application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval
 
 	server My url = "http://www.test.org" {
 		services = (Test, AnotherTest)
-		autorizations = (O_AUTH2)
+		authorization = O_AUTH2
 	}
 
 	serialization XML
@@ -34,7 +34,7 @@ application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval
 	 */
 	const BAA = ADDRESS_UC + " _ foo _ " + STRING_10 + DECIMAL_0
 	
-	entity TestEntity {
+	entity TestEntity cache=SqLiteCache {
 		
 	}
 	
@@ -67,31 +67,42 @@ application CustomerUiApp version = 1.0.1 cache(strategy="Foo" type=BAA interval
 		requestDto = TestPayload isArray as XML
 		errorDto = TestPayload as JSON
 	}
+
+	// restGroup InventoryRestGroup {
+	// path = "...."
+	// headers {
+	//		// ContentTypeHeader = CONTENTTYPE_APP_JSON
+	//		// RawHeader RAWHEADER_AUTHENTICATION = "Basic a2V0dGVycDprZXR0ZXJwMw=="
+	//		// RawHeader RAWHEADER_ACCEPT = CONTENTTYPE_APP_JSON
+	//		// RawHeader RAWHEADER_ACCEPT_LANGUAGE = LANGUAGE_EN
+	//	}
+	// }
 	
-	rest AnotherTest {
-		// api = "/api/test"
+	rest AnotherTest /** joins InventoryRestGoup */ {
+		// path = "/api/test"
 		method = GET // a method should be required
-		// isMultipartUpload
-		// wenn multipart brquche ich array von parametern, zB:
-		// "uuid" = aUuid
-		// "filename" = aFilename
-		// "otherInfo" = "EXTRA"
+		// multipart {
+		// 		wenn multipart brquche ich array von parametern, zB:
+		// 		"uuid" = aUuid
+		// 		"filename" = aFilename
+		// 		"otherInfo" = "EXTRA"
+		// }
 		parameters {
 			param String aString = "Something"
-			// param myInt  (eine var aus der requestDto)
-			// param String $format = "JSON"  <--- geht nicht, vielleicht so:
+			// refParam myInt  (eine var aus der requestDto)
+			// param String $format = "JSON"  <--- geht nicht, vielleicht so: // alias per STRING und CONSTANT
 			// param PARAMETER_FORMAT = PARAMETER_FORMAT_JSON
 		}
 		headers {
 			// ContentTypeHeader = CONTENTTYPE_APP_JSON
-			// RawHeader RAWHEADER_AUTHENTICATION = "Basic a2V0dGVycDprZXR0ZXJwMw==" 
+			// RawHeader RAWHEADER_AUTHENTICATION = "Basic a2V0dGVycDprZXR0ZXJwMw=="
 			// RawHeader RAWHEADER_ACCEPT = CONTENTTYPE_APP_JSON
 			// RawHeader RAWHEADER_ACCEPT_LANGUAGE = LANGUAGE_EN
 		}
 		requestDto = TestPayload
 	}
 	
-	queue ServerQueue cache(strategy=CACHE_STRATEGY_AT_EXIT type=CACHE_TYPE_READ_WRITE using JSON) {
+	queue ServerQueue cache=SqLiteCache {
 		ref TestPayload testPayload
 		ref TestEntity testEntity
 	}

@@ -142,14 +142,15 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	 * An enum datatype for gender.
 	 */
 	datatype GenderEnum enum {
-		lit MALE = ("male", 00)
+		lit MALE = ("male", 7)
 		lit FEMALE = ("female", 01)
 	}
-	
+
 	/**
 	 * An enum datatype for acceptance.
 	 */
 	datatype AcceptanceEnum enum {
+		lit UNDEFINED = ("undef", -01, isHidden)
 		lit ACCEPT = ("accept", 00)
 		lit DECLINE = ("decline", 01)
 	} 
