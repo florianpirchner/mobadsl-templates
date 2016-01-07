@@ -107,7 +107,9 @@ application CustomerUiApp version = 1.0.1 cache = SqLiteCache {
 		ref TestEntity testEntity
 	}
 }
- 
-application CustomerBackgroundApp version = 1.0.1 { 
+
+application CustomerBackgroundApp version = 1.0.1 {
+	
+	trigger app install Foo
 	
 }
