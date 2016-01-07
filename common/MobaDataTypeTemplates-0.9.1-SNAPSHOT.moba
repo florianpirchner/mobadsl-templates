@@ -129,12 +129,12 @@ application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 	/**
 	 * encapsulates a Coordinate and location-specific logic
 	 */
-	datatype GeoCoordinate isNumeric // TODO is an Object
+	datatype GeoCoordinate isPredefined
 	
 	/**
 	 * encapsulates a GEO Address and location-specific logic
 	 */
-	datatype GeoAddress isNumeric // TODO is an Object
+	datatype GeoAddress isPredefined
 	
 	//
 	// ---------------- Enum Datatypes ----------------
