@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="src-gen/|src-gen/|src-gen/|src-gen/|xtend-gen/|xtend-gen/|common/|sample/" kind="src" path=""/>
+	<classpathentry kind="src" path="src-gen"/>
+	<classpathentry kind="src" path="common"/>
+	<classpathentry kind="src" path="sample"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.xtend.XTEND_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
