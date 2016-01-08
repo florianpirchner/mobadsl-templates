@@ -1,3 +1,13 @@
+copyright 
+"Copyright (c) 2015 - {$year}, Lunifera GmbH (Wien), Ekkehard Gentz (Rosenheim)
+ All rights reserved. This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License
+ which accompanies this distribution, and is available at
+ http://www.eclipse.org/legal/epl-v10.html
+ 
+  Contributors:
+          Florian Pirchner - Initial implementation"
+
 /**
  * Contains a set of <b>Number- and Decimal-Constants</b>. 
  * All mime type constants start with <code>"NUMBER_"</code> or <code>"DECIMAL_"</code>.

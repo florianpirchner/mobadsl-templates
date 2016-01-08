@@ -1,3 +1,13 @@
+copyright 
+"Copyright (c) 2015 - {$year}, Lunifera GmbH (Wien), Ekkehard Gentz (Rosenheim)
+ All rights reserved. This program and the accompanying materials
+ are made available under the terms of the Eclipse Public License
+ which accompanies this distribution, and is available at
+ http://www.eclipse.org/legal/epl-v10.html
+ 
+  Contributors:
+          Florian Pirchner - Initial implementation"
+
 /**
  * This template is the base template for the Open Source Moba Generator.<br>
  * If you are going to generate an mobile application based on the <code>org.mobadsl.grammar.generator.common</code> generator, 
@@ -7,7 +17,7 @@
 application MobaBaseTemplate version = 0.8.2 {
 	 
 	javaPackage org.mobadsl.templates
-
+ 
 	/**
 	 * Use these base templates. These provide you with the base settings for the common generator. 
 	 */
