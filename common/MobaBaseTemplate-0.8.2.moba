@@ -5,6 +5,8 @@
  * All Constants, Settings and Data are handled by the Generator. 
  */
 application MobaBaseTemplate version = 0.8.2 {
+	 
+	javaPackage org.mobadsl.templates
 
 	/**
 	 * Use these base templates. These provide you with the base settings for the common generator. 

@@ -4,6 +4,8 @@
  */
 application MobaTriggersTemplate version = 0.9.1-SNAPSHOT {
 	
+	javaPackage org.mobadsl.templates
+	
 	/**
 	 * A trigger which is invoked on <b>App install</b>
 	 */

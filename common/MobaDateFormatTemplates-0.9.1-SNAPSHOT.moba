@@ -4,6 +4,8 @@
  */
 application MobaDateFormatTemplates version = 0.9.1-SNAPSHOT {
 
+	javaPackage org.mobadsl.templates
+
 	/**
 	 * Time in the form <code>07:23</code> for <code>2015.Oct.10 07:23.11234</code>
 	 */

@@ -4,6 +4,8 @@
  */
 application MobaMimeTypesTemplate version = 0.9.1-SNAPSHOT {
 
+	javaPackage org.mobadsl.templates
+
 	/**
 	 * "text/css" -> .css
 	 */

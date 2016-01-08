@@ -5,6 +5,8 @@ project FooCustomer version = 0.7.3-SNAPSHOT {
 
 application CustomerUiApp version = 1.0.1 cache = SqLiteCache { 
 
+	javaPackage org.mobadsl.samples
+
 	use template MobaBaseTemplate
  
  	/**
@@ -19,19 +21,20 @@ application CustomerUiApp version = 1.0.1 cache = SqLiteCache {
 		services = (Test, AnotherTest)
 		authorization = O_AUTH2
 	}
-
+  
 	serialization XML
-	serialization JSON
-
-	const INT = 10
+	serialization JSON 
+    
+	const XXX = "AhAHAH"
+	const INT = 10 
 	const DOUBLE = 10.12
-	const STRING_10 = "10"
+	const STRING_10 = "10" + XXX -> toUpperCase + DOUBLE + "     " + INT + 13
 	const STRING_10_12 = "10.12"
 	const STRING_A = "A"
 	
-	/*
+	/* 
 	 * Constants concated
-	 */
+	 */ 
 	const BAA = ADDRESS_UC + " _ foo _ " + STRING_10 + DECIMAL_0
 	
 	entity TestEntity cache=SqLiteCache {
@@ -109,6 +112,8 @@ application CustomerUiApp version = 1.0.1 cache = SqLiteCache {
 }
 
 application CustomerBackgroundApp version = 1.0.1 {
+	
+	javaPackage org.mobadsl.samples
 	
 	trigger app install Foo
 	

@@ -3,6 +3,8 @@
  * All date format constants start with <code>"AUTH_"</code>.
  */
 application MobaCachingTemplate version = 0.9.1-SNAPSHOT {
+ 
+	javaPackage org.mobadsl.templates
 	
 	/**
 	 * caching type CACHE_NO

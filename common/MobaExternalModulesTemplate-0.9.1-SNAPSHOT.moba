@@ -3,6 +3,8 @@
  */
 application MobaExternalModulesTemplate version = 0.9.1-SNAPSHOT {
 	
+	javaPackage org.mobadsl.templates
+	
 	/**
 	 * An external module for <b>bluetooth low energy</b> communication
 	 */

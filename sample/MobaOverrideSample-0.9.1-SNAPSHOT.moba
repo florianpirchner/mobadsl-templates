@@ -3,6 +3,8 @@
  */
 application MobaOverrideSample version = 0.9.1-SNAPSHOT {
 
+	javaPackage org.mobadsl.samples
+
 	use template MobaDataTypeTemplates
 	use template MobaHttpCodesTemplates
 

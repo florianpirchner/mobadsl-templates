@@ -3,11 +3,13 @@
  */
 application MobaConstantsTemplates version = 0.9.1-SNAPSHOT {
 
+	javaPackage org.mobadsl.templates
+
 	/**
 	 * A constant to mark data as undefined
 	 */
 	const UNDEFINED = "undefined"
-	
+	 
 	/**
 	 * A constant to mark a variable, that data needs to become defined by a subtype. <br>
 	 * This subtype needs to use the <code>extends {XYZ}</code> to override this setting.<p>

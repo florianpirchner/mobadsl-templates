@@ -3,9 +3,11 @@
  */
 application MobaDataTypeTemplates version = 0.9.1-SNAPSHOT {
 
+	javaPackage org.mobadsl.templates
+
 	use template MobaDateFormatTemplates
 
-	//
+	// 
 	// ---------------- Constants ----------------
 	//
 	

@@ -4,6 +4,8 @@
  */
 application MobaNumberTemplates version = 0.9.1-SNAPSHOT {
 
+	javaPackage org.mobadsl.templates
+
 	const NUMBER_0 = 00
 	const NUMBER_10 = 10
 	const NUMBER_100 = 100

@@ -4,6 +4,8 @@
  */
 application MobaHttpCodesTemplates version = 0.9.1-SNAPSHOT {
 	
+	javaPackage org.mobadsl.templates
+	
 	use template MobaDataTypeTemplates
 
 	/**
