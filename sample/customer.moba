@@ -16,7 +16,7 @@ application CustomerUiApp version = 1.0.1 cache = SqLiteCache {
 		mixin CommonMobaGenerator
 		extensionPoint org.mobadsl.grammar.generator.server.rest : 0.8.9-SNAPSHOT
 	}
-
+	
 	server My url = "http://www.test.org" {
 		services = (Test, AnotherTest)
 		authorization = O_AUTH2
