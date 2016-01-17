@@ -72,11 +72,7 @@ application CustomerUiApp version = 1.0.1 cache = SqLiteCache {
 		parameters {
 			param Decimal param1 = DOUBLE
 		}
-		
-		headers {
-			param String xxxmx = MIMETYPE__TEXT_XML
-		}
-		
+
 		requestDto = TestPayload isArray as XML
 		errorDto = TestPayload as JSON
 	}
@@ -92,32 +88,40 @@ application CustomerUiApp version = 1.0.1 cache = SqLiteCache {
 	// }
 	
 	rest AnotherTest /** joins InventoryRestGoup */ {
-		// path = "/api/test"
+		path = "/api/test"
 		method = GET // a method should be required
-		// multipart {
+		 multipart {
 		// 		wenn multipart brquche ich array von parametern, zB:
 		// 		"uuid" = aUuid
+				refParam aUuid alias("uuid")
 		// 		"filename" = aFilename
+				refParam attachment aFilename alias("filename")
 		// 		"otherInfo" = "EXTRA"
-		// }
+				param String otherInfo = "EXTRA"
+		 }
+
 		parameters {
 			param String aString = "Something"
-			// refParam myInt  (eine var aus der requestDto)
-			// param String $format = "JSON"  <--- geht nicht, vielleicht so: // alias per STRING und CONSTANT
 			// param PARAMETER_FORMAT = PARAMETER_FORMAT_JSON
+			param bool ADDRESS_FIRST_UC = ADDRESS_FIRST_UC
+			// param String $format = "JSON"  <--- geht nicht, vielleicht so: // alias per STRING und CONSTANT
+			param String myFormat alias ("$format") = "JSON" 
+			// refParam myInt  (eine var aus der requestDto)
+			refParam aFilename alias(BAA)
 		}
+		
 		headers {
-			// ContentTypeHeader = CONTENTTYPE_APP_JSON
-			// RawHeader RAWHEADER_AUTHENTICATION = "Basic a2V0dGVycDprZXR0ZXJwMw=="
-			// RawHeader RAWHEADER_ACCEPT = CONTENTTYPE_APP_JSON
-			// RawHeader RAWHEADER_ACCEPT_LANGUAGE = LANGUAGE_EN
+			 ContentTypeHeader CONTENTTYPE_APP_JSON
+			 RawHeader RAWHEADER_AUTHENTICATION = "Basic a2V0dGVycDprZXR0ZXJwMw=="
+			 RawHeader RAWHEADER_ACCEPT = CONTENTTYPE_APP_JSON
+			 RawHeader RAWHEADER_ACCEPT_LANGUAGE = LANGUAGE_EN
 		}
 		requestDto = TestPayload
 	}
 	
 	queue ServerQueue cache=SqLiteCache {
-		ref TestPayload testPayload
-		ref TestEntity testEntity
+		ref AnotherTest another
+		ref TestBase base
 	}
 }
 
